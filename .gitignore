@@ -1,0 +1,72 @@
+# Local working directories from the full project tree
+DataSet/
+DES/
+EmoPro/
+Exp/
+Latex/
+Paper/
+Pie_Chart/
+Reference/
+__pycache__/
+.idea/
+.vscode/
+
+# Dataset and generated assets
+data/
+!training/qwenvl/data/
+!training/qwenvl/data/**
+dataset/
+datasets/
+images/
+image/
+annotations/
+annotation/
+masks/
+mask/
+checkpoints/
+outputs/
+runs/
+logs/
+
+# Large archives and binaries
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Research working files
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
+*.pptx
+*.psd
+*.ai
+*.bmp
+
+# Python and system files
+*.pyc
+*.pyo
+**/__pycache__/
+.DS_Store
+Thumbs.db
+
+# Keep release documentation
+!README.md
+!DATA_ACCESS.md
+!DATASET_CARD.md
+!CITATION.cff
+!LICENSE
+!docs/
+!docs/**
+!scripts/
+!scripts/**

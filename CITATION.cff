@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+title: "EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis"
+message: "If you use EmoVerse, please cite the paper."
+type: article
+authors:
+  - family-names: Guo
+    given-names: Yijie
+  - family-names: Hong
+    given-names: Dexiang
+  - family-names: Chen
+    given-names: Weidong
+  - family-names: She
+    given-names: Zihan
+  - family-names: Ye
+    given-names: Cheng
+  - family-names: Chang
+    given-names: Xiaojun
+  - family-names: Mao
+    given-names: Zhendong
+doi: 10.48550/arXiv.2511.12554
+url: "https://arxiv.org/abs/2511.12554"
+repository-code: "https://github.com/alkaline-acid/EmoVerse"
+journal: "arXiv preprint arXiv:2511.12554"
+year: 2025
+preferred-citation:
+  type: article
+  title: "EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis"
+  authors:
+    - family-names: Guo
+      given-names: Yijie
+    - family-names: Hong
+      given-names: Dexiang
+    - family-names: Chen
+      given-names: Weidong
+    - family-names: She
+      given-names: Zihan
+    - family-names: Ye
+      given-names: Cheng
+    - family-names: Chang
+      given-names: Xiaojun
+    - family-names: Mao
+      given-names: Zhendong
+  journal: "arXiv preprint arXiv:2511.12554"
+  year: 2025
+  doi: 10.48550/arXiv.2511.12554
+  url: "https://arxiv.org/abs/2511.12554"

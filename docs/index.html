@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EmoVerse</title>
+  <meta name="description" content="EmoVerse: an MLLM-driven emotion representation dataset for interpretable visual emotion analysis.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="EmoVerse home">🌌 EmoVerse</a>
+    <nav aria-label="Primary">
+      <a href="https://arxiv.org/abs/2511.12554">Paper</a>
+      <a href="https://huggingface.co/alkalol/EmoVerse-LoRA">Model</a>
+      <a href="#dataset">Dataset</a>
+      <a href="#schema">Schema</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#citation">Citation</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">✨ Interpretable Visual Emotion Analysis</p>
+        <h1>EmoVerse</h1>
+        <p class="lead">A MLLMs-driven emotion representation dataset that connects categorical emotion, continuous affective space, textual attribution, and grounded visual evidence.</p>
+        <div class="actions" aria-label="Project links">
+          <a href="https://arxiv.org/abs/2511.12554">Paper</a>
+          <a href="https://huggingface.co/alkalol/EmoVerse-LoRA">Model</a>
+          <a href="#pipeline">Pipeline</a>
+          <a href="#citation">Citation</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="assets/teaser.png" alt="EmoVerse sample annotations with CES, DES, B-A-S, and visual grounding">
+      </figure>
+    </section>
+
+    <section id="dataset" class="band">
+      <div class="section-heading">
+        <p class="eyebrow">📚 Dataset</p>
+        <h2>Designed for emotion reasoning, not only emotion labels.</h2>
+      </div>
+      <div class="stat-grid">
+        <article>
+          <strong>219K+</strong>
+          <span>images in the arXiv preprint</span>
+        </article>
+        <article>
+          <strong>8</strong>
+          <span>CES categories</span>
+        </article>
+        <article>
+          <strong>1024</strong>
+          <span>DES dimensions</span>
+        </article>
+        <article>
+          <strong>B-A-S</strong>
+          <span>triplet attribution</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="schema" class="split">
+      <div class="section-heading">
+        <p class="eyebrow">🧩 Schema</p>
+        <h2>Each sample records what is felt, why it is felt, and where the evidence appears.</h2>
+      </div>
+      <pre><code>{
+  "emotion": "Amusement",
+  "confidence": 8,
+  "background": "snow-covered plain",
+  "attribute": "excited",
+  "subject": "person",
+  "B-A-S": "snow-covered plain-excited-person",
+  "DES": [10.3387, 2.5036, "..."],
+  "bbox": [{"x1": 47, "y1": 10, "x2": 421, "y2": 559}]
+}</code></pre>
+    </section>
+
+    <section id="pipeline" class="band muted">
+      <div class="section-heading">
+        <p class="eyebrow">🛠️ Pipeline</p>
+        <h2>A scalable annotation workflow with verification built in.</h2>
+      </div>
+      <ol class="pipeline">
+        <li><span>01 🌈</span> Collect and generate affective images</li>
+        <li><span>02 ✍️</span> Annotate background, attribute, subject, and emotion</li>
+        <li><span>03 🔍</span> Cross-check with emotion-specific models</li>
+        <li><span>04 📍</span> Ground subjects with boxes and masks</li>
+        <li><span>05 ✅</span> Verify with Critic Agent and manual sampling</li>
+      </ol>
+      <figure class="wide-figure">
+        <img src="assets/framework.png" alt="Overall EmoVerse framework">
+      </figure>
+    </section>
+
+    <section id="citation" class="citation">
+      <div class="section-heading">
+        <p class="eyebrow">🔖 Citation</p>
+        <h2>Use EmoVerse in your work.</h2>
+      </div>
+      <pre><code>@misc{guo2025emoverse,
+  title         = {EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis},
+  author        = {Yijie Guo and Dexiang Hong and Weidong Chen and Zihan She and Cheng Ye and Xiaojun Chang and Zhendong Mao},
+  year          = {2025},
+  eprint        = {2511.12554},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2511.12554},
+  url           = {https://arxiv.org/abs/2511.12554}
+}</code></pre>
+    </section>
+  </main>
+</body>
+</html>
