@@ -139,16 +139,13 @@ The dataset is not committed to this repository. Please see [DATA_ACCESS.md](DAT
 If EmoVerse is useful for your research, please cite:
 
 ```bibtex
-@misc{guo2025emoverse,
-  title         = {EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis},
-  author        = {Yijie Guo and Dexiang Hong and Weidong Chen and Zihan She and Cheng Ye and Xiaojun Chang and Zhendong Mao},
-  year          = {2025},
-  eprint        = {2511.12554},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  doi           = {10.48550/arXiv.2511.12554},
-  url           = {https://arxiv.org/abs/2511.12554}
+@article{guo2025emoverse,
+  title={EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis},
+  author={Guo, Yijie and Hong, Dexiang and Chen, Weidong and She, Zihan and Ye, Cheng and Chang, Xiaojun and Mao, Zhendong},
+  journal={arXiv preprint arXiv:2511.12554},
+  year={2025}
 }
+
 ```
 
 The BibTeX entry will be updated if the venue version changes.
