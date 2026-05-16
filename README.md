@@ -1,6 +1,4 @@
-# EmoVerse 🌌
-
-**A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis**
+# EmoVerse: A MLLMs-Driven Emotion Representation Dataset for Interpretable Visual Emotion Analysis 🌌
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.12554-b31b1b.svg)](https://arxiv.org/abs/2511.12554)
 [![Project Page](https://img.shields.io/badge/Project-Page-087f7a.svg)](https://alkaline-acid.github.io/EmoVerse/)
